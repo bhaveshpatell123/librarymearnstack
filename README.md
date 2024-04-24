@@ -1,39 +1,70 @@
-# 📓 library-MERN-Stack
-This repository contains the source code and documentation for a Library Management System developed as part of an internship project at Ethnus.
-- 🔗**Link** - https://library-mern.onrender.com
+# Getting Started with Create React App
 
-## Introduction
-The Library Management System is a web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It aims to streamline and enhance the management of books, patrons, and administrative tasks within a library setting.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
-- ✨ **User Roles and Access Management:** Implementing user roles (Patron, Librarian, and Admin) and managing access to different functionalities based on those roles.
-- 📖 **CRUD Operations on Books:** Create, Read, Delete, and Update operations for managing books in the library system.
-- 📋 **Issuing and Renewing Books:** Librarians can issue books to patrons (users) and renew the issued book status based on user requests.
-- 📚  Rent, Book Returns, and Fine Collection: Processing book returns and collecting rents and fines from patrons.
+## Available Scripts
 
-## Technologies Used
-- 🛠️ **MongoDB:** NoSQL document database for flexible and scalable data storage.
-- 🚀 **Express.js:** Web application framework for building server-side applications and APIs.
-- ⚛️ **React.js:** JavaScript library for building user interfaces.
-- 🔧 **Node.js:** JavaScript runtime for running server-side code.
-- 🔒 **Redux Toolkit:** Library for managing application state in Redux.
-- 🔐 **JWT Authentication and Password Encryption:** JSON Web Tokens for authentication and authorization, and password encryption for enhanced security.
-- 💅 **Ant Design Library:** UI library for React, providing customizable and well-designed components.
+In the project directory, you can run:
 
-## Credential Information for Testing:
-Please use the following credentials to access different user roles in the Library Management System:
+### `npm start`
 
-Username (Email):
-- Admin: ayush.kumar@vitbhopal.ac.in, alisha.piplani2020@vitbhopal.ac.in
-- Librarian: souradip.ghosh2020@vitbhopal.ac.in
-- Patron (End User): Kartik.patel2020@vitbhopal.ac.in, Ayush@gmail.com
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Password (same for all): 12345678.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Please note that these credentials are for testing purposes only and should not be used for actual production purposes.
+### `npm test`
 
-## Demo
-🎥 Check out the Library Management System in action! Watch the demo [here](https://drive.google.com/file/d/1gzlgaMWass1494lV5eC6mycq5aepyEeB/view).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Acknowledgment
-🙏We would like to express our gratitude to Ethnus for providing us with the opportunity to work on this internship project and for their support throughout. This project was led by Ayush Kumar, and the team members, Kartik Patel, Souradip Ghosh, and Alisha Piplani, contributed significantly to the development of the system.
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
